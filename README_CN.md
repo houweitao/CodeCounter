@@ -10,21 +10,21 @@
 
 ```bash
 # 统计当前目录的代码行数（会显示使用示例）
-python count_lines.py
+python code_counter.py
 
 # 统计指定目录的代码行数
-python count_lines.py /path/to/project
+python code_counter.py /path/to/project
 
 # 统计相对路径的代码行数
-python count_lines.py ../other-project
+python code_counter.py ../other-project
 
 # 显示详细帮助信息
-python count_lines.py --help
+python code_counter.py --help
 ```
 
 在类Unix系统上：
 ```bash
-python3 count_lines.py [路径]
+python3 code_counter.py [路径]
 ```
 
 ## 功能特性
@@ -60,10 +60,10 @@ python3 count_lines.py [路径]
 
 ```
 Usage Examples:
-  python count_lines.py                    # Count lines in current directory
-  python count_lines.py /path/to/project   # Count lines in specified directory
-  python count_lines.py ../other-project   # Count lines in relative path
-  python count_lines.py --help             # Show detailed help
+  python code_counter.py                    # Count lines in current directory
+  python code_counter.py /path/to/project   # Count lines in specified directory
+  python code_counter.py ../other-project   # Count lines in relative path
+  python code_counter.py --help             # Show detailed help
 
 Counting lines of code in: /path/to/your/project
 
@@ -122,22 +122,22 @@ By File Type:
 
 ## 安装使用
 
-将 `count_lines.py` 脚本复制到您的项目目录并运行即可，无需额外安装。
+将 `code_counter.py` 脚本复制到您的项目目录并运行即可，无需额外安装。
 
 ## 常用命令示例
 
 ```bash
 # 统计当前项目代码行数
-python count_lines.py
+python code_counter.py
 
 # 统计源码目录
-python count_lines.py src
+python code_counter.py src
 
 # 统计测试目录
-python count_lines.py test
+python code_counter.py test
 
 # 统计上级目录的其他项目
-python count_lines.py ../other-project
+python code_counter.py ../other-project
 
 # 统计绝对路径
-python count_lines.py C:\Projects\MyApp
+python code_counter.py C:\Projects\MyApp

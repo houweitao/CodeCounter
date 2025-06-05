@@ -4,7 +4,7 @@ Cross-platform code line counter
 Counts non-empty lines in various programming language files
 
 Usage:
-    python count_lines.py [path]
+    python code_counter.py [path]
     
 Arguments:
     path    Optional path to analyze (default: current directory)
@@ -131,10 +131,10 @@ def display_results(total_lines, extension_counts, file_counts, root_path):
 def show_usage_examples():
     """Show usage examples"""
     print("Usage Examples:")
-    print("  python count_lines.py                    # Count lines in current directory")
-    print("  python count_lines.py /path/to/project   # Count lines in specified directory")
-    print("  python count_lines.py ../other-project   # Count lines in relative path")
-    print("  python count_lines.py --help             # Show detailed help")
+    print("  python code_counter.py                    # Count lines in current directory")
+    print("  python code_counter.py /path/to/project   # Count lines in specified directory")
+    print("  python code_counter.py ../other-project   # Count lines in relative path")
+    print("  python code_counter.py --help             # Show detailed help")
     print()
 
 
@@ -145,9 +145,9 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-    python count_lines.py              # Count lines in current directory
-    python count_lines.py /path/to/project    # Count lines in specified directory
-    python count_lines.py ../other-project   # Count lines in relative path
+    python code_counter.py              # Count lines in current directory
+    python code_counter.py /path/to/project    # Count lines in specified directory
+    python code_counter.py ../other-project   # Count lines in relative path
         """
     )
     parser.add_argument(

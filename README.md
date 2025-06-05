@@ -10,21 +10,21 @@ Works on Windows, macOS, and Linux with Python 3+:
 
 ```bash
 # Count lines in current directory (shows usage examples)
-python count_lines.py
+python code_counter.py
 
 # Count lines in a specific directory
-python count_lines.py /path/to/project
+python code_counter.py /path/to/project
 
 # Count lines in a relative path
-python count_lines.py ../other-project
+python code_counter.py ../other-project
 
 # Show detailed help
-python count_lines.py --help
+python code_counter.py --help
 ```
 
 Or on Unix-like systems:
 ```bash
-python3 count_lines.py [path]
+python3 code_counter.py [path]
 ```
 
 ## Features
@@ -60,10 +60,10 @@ When running without specifying a path, usage examples are shown:
 
 ```
 Usage Examples:
-  python count_lines.py                    # Count lines in current directory
-  python count_lines.py /path/to/project   # Count lines in specified directory
-  python count_lines.py ../other-project   # Count lines in relative path
-  python count_lines.py --help             # Show detailed help
+  python code_counter.py                    # Count lines in current directory
+  python code_counter.py /path/to/project   # Count lines in specified directory
+  python code_counter.py ../other-project   # Count lines in relative path
+  python code_counter.py --help             # Show detailed help
 
 Counting lines of code in: /path/to/project
 
@@ -122,4 +122,4 @@ By File Type:
 
 ## Installation
 
-Simply copy the `count_lines.py` script to your project directory and run it. No additional installation required.
+Simply copy the `code_counter.py` script to your project directory and run it. No additional installation required.
